@@ -2,31 +2,33 @@
 MERN Stack
 
 
-# Project Name: MERN Social Media App with Real-time Chatting
+# Project Type: MERN Social Media App with Real-time Chatting
 
 ## Description:
-This repository contains a full-stack social media application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and real-time chatting functionality implemented using Socket.IO. The app allows users to register, create profiles, post updates, like and comment on posts, and engage in real-time chat conversations with other users.
+This project is a full-stack social media application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and real-time chatting functionality implemented using Socket.IO. The app allows users to register, create profiles, post updates, like posts, and engage in real-time chat conversations with other users.
 
 ## Features:
 
 1. User Authentication:
    - User registration and login functionality using email and password authentication.
    - Password hashing and salting for secure storage.
-   - User session management and authentication middleware for protected routes.
+   - JWT for user session management and authentication middleware for protected routes.
+   - Registration form data handling and validation using Formik and Yup.
 
 2. User Profiles:
-   - User profiles with customizable information such as profile picture, bio, and social media links.
+   - User profiles with customizable information such as profile picture, bio, occupation, location, firends,etc..
    - Ability to update and view user profiles.
+   - Dynamic friend list showing profiles about friends.
 
 3. Post Creation and Interaction:
    - Create, edit, and delete posts with rich text formatting options.
-   - Like and comment on posts.
+   - Like/unlike posts.
    - View posts from other users in a news feed format.
 
 4. Real-time Chatting:
    - Real-time chat functionality using Socket.IO.
-   - Users can create private chat rooms and engage in one-on-one or group conversations.
-   - Chat notifications and unread message indicators.
+   - Users can create private chat rooms and engage in one-on-one conversations.
+   - Real-time Online/Offline information about user.
 
 5. Deployment:
    - Configuration files for deploying the application on platforms like Heroku or AWS.
@@ -34,11 +36,11 @@ This repository contains a full-stack social media application built using the M
 
 ## Tech Stack:
 
-- **MongoDB**: A NoSQL database used for storing user information, posts, and chat messages.
-- **Express.js**: A backend framework for building RESTful APIs and handling HTTP requests.
-- **React.js**: A JavaScript library for building user interfaces and UI components.
-- **Node.js**: A runtime environment for executing JavaScript code on the server-side.
-- **Socket.IO**: A JavaScript library for real-time, bidirectional communication between clients and servers.
+- **MongoDB**: Used for storing all the necessary info. MongoDB cloud storage Atlas.
+- **Express.js**: Backend developed using Express.js framework.
+- **React.js**: UI Interface made using React.js.
+- **Node.js**: Used for executing javascript code on server-side.
+- **Socket.IO**: Used for real-time, bidirectional communication between clients and servers.
 
 ## Installation:
 
@@ -64,19 +66,7 @@ This repository contains a full-stack social media application built using the M
    ```
    npm start
    ```
-
-## Contributing:
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your forked repository.
-5. Submit a pull request explaining your changes.
-
-## License:
-This project is licensed under the [MIT License](LICENSE).
-
+   
 ## Acknowledgements:
 - [Socket.IO Documentation](https://socket.io/docs/)
 - [MERN Stack Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)
