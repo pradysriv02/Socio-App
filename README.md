@@ -73,11 +73,12 @@ This project is a full-stack social media application built using the MERN stack
    - Define the following environment variables:
      - `MONGODB_URI`: MongoDB connection string.
      - `JWT_SECRET`: Secret key for JSON Web Tokens.
-     - `SOCKET_URL`: Socket.IO server URL.
 
 4. Run the application:
    ```
-   npm start
+   npm start: For client side rendering
+   node index.js : For server side javascript
+   /socket, then node index.js: To run socket.IO server
    ```
    
 ## Acknowledgements:
