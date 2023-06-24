@@ -9,7 +9,7 @@ MERN Stack
 This project is a full-stack social media application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and real-time chatting functionality implemented using Socket.IO. The app allows users to register, create profiles, post updates, like posts, and engage in real-time chat conversations with other users.
 
 
-
+![Screenshot (7)](https://github.com/pradysriv02/Socio-App/assets/116811317/00bd8e35-2def-4c37-a0e4-b8a299a81352)
 
 
 ## Features:
