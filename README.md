@@ -35,6 +35,9 @@ This project is a full-stack social media application built using the MERN stack
    - Users can create private chat rooms and engage in one-on-one conversations.
    - Real-time Online/Offline information about user.
 
+   ![Screenshot (9)](https://github.com/pradysriv02/Socio-App/assets/116811317/bc92226d-724f-4ab0-a762-bc64e9fd6048)
+
+
 5.Mode:
    - You can toggle between both dark and light mode as per your comfort.
 
