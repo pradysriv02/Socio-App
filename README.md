@@ -43,9 +43,7 @@ This project is a full-stack social media application built using the MERN stack
 
    - ![Screenshot (8)](https://github.com/pradysriv02/Socio-App/assets/116811317/433c41db-0021-4725-b0ac-0e5c9c9767de)
 
-6. Deployment:
-   - Configuration files for deploying the application on platforms like Heroku or AWS.
-   - Instructions for setting up the database and environment variables.
+
 
 ## Tech Stack:
 
