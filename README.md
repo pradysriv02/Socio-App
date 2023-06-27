@@ -57,7 +57,7 @@ This project is a full-stack social media application built using the MERN stack
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/pradysriv02/Socio-App.git
    ```
 
 2. Install the dependencies:
