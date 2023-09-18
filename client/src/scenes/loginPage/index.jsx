@@ -33,7 +33,19 @@ const LoginPage = () => {
           </Typography>
           <Form />
         </Box>
-          
+          </Box>
+          <Box
+          width={isNonMobileScreens ? "30%" : "93%"}
+          p="2rem"
+          m="2rem "
+          borderRadius="1.5rem"
+          backgroundColor={theme.palette.background.alt}
+        >
+          <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
+            Welcome to SocialApp,the next evolution in the world of social media!!!
+          </Typography>
+          <Form />
+        </Box>
         </Box>
         
         
