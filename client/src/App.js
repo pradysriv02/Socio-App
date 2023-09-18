@@ -10,6 +10,7 @@ import { CssBaseline,ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 import state from "./state/index.js";
+import ChatBox from "./components/ChatBox.jsx";
 
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
             <Route
               path="/chats"
               element={isAuth ? <InboxPage /> : <Navigate to="/" />}
+            />
+            <Route
+            path="/chats/:userId"
+            element={isAuth ? <ChatBox /> : <Navigate to="/" />}
             />
           </Routes>
         </ThemeProvider>

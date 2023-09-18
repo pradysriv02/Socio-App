@@ -5,10 +5,15 @@ export const createChat = async(req,res) => {
     const newChat = new Chat({
         members:[req.body.senderId,req.body.recieverId]
     });
-
     try {
-     const result = await newChat.save();
-     res.status(200).json(result);
+        const present = await Chat.findOne({
+            members:{$all:[req.body.senderId,req.body.recieverId]}
+        });
+        if(!present){
+            const result = await newChat.save();
+            res.status(200).json(result);
+        }
+     
     } catch (error) {
         res.status(500).json({message:error.message});
     }
